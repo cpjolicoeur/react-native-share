@@ -49,7 +49,7 @@ Share Social , Sending Simple Data to Other Apps
 Example:
 Put this in `AndroidManifest.xml` where `applicationId` is something that you have defined in `android/app/build.gradle`.
     ```xml
-      <applicaiton>
+      <application>
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.provider"
